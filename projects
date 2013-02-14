@@ -1,0 +1,143 @@
+id: kiss
+name: I Love You But You Kiss Like A Girl
+big: true
+screenshots: ss/ss_kiss_big.png
+thumbnail: ss/ss_kiss.png
+video: vid/kiss_vid.mp4, vid/kiss_vid.webm
+link: downloads/kissing.zip Download (Windows .exe)
+description:
+I made this goofy little game for a <a href="http://glorioustrainwrecks.com">Glorious Trainwrecks</a> 
+ Klik of the Month Klub event. It's a fighting game that pits two furious lovers against
+ each other in a french kiss standoff.
+ It was featured at <a href="http://www.auntiepixelante.com/?p=1817">Anna Anthropy's
+ tent at Indiecade</a> and also in <a href="http://gdmag.com/blog/2012/11/the-avant-game.php">
+ Game Developer Magazine</a>!
+ <br>
+ <br>
+ Controls: WASD for the left player, arrow keys
+ for the right player.
+!description_end
+
+id: cafe
+name: MFA Prep Course
+big: true
+screenshots: ss/ss_cafe_big.png
+thumbnail: ss/ss_cafe.png
+video: vid/cafe_vid.mp4, vid/cafe_vid.webm
+link: http://ludogenesis.org/games/cafe Play Now (Flash)
+description: 
+MFA Prep Course is a game about living the life of an art school undergrad,
+ made in collaboration with <a href="artfail.org">John Bruneau</a>. It debuted
+ in the <a href="http://www.workssanjose.org/wordpress/">Works Gallery</a>
+ annual member's show to rabid enthusiasm from the luderati and confusion from
+ the dusty art historians, and has since been updated for a web release.
+!description_end
+
+id: fun
+name: Have Fun
+big: true
+screenshots: ss/ss_fun_big.png
+thumbnail: ss/ss_fun.png
+video: vid/fun_vid.mp4, vid/fun_vid.webm
+link: http://ludogenesis.org/games/fun Play Now (Flash)
+description:
+Have Fun was made for my BFA project at SJSU. 
+It is a point and click adventure game set in the future when gamification
+ has become a ubiquitous cultural institution. It uses <a href="http://flixel.org">Flixel</a>
+ and an entity/component framework that I built for Flash.
+!description_end
+
+id: normal
+name: A Normal RPG
+big: false
+screenshots: ss/ss_normal_big.png
+thumbnail: ss/ss_normal.png
+link: http://ludogenesis.org/games/normalrpg.exe Download (Windows .exe)
+description:
+This game is completely normal and not at all an experiment in surrealism.
+ <a href="http://www.parrisstudios.com/">Parris Khachi</a> did the music.
+!description_end
+
+id: glorious
+name: Glorious Trainwrecks
+big: false
+screenshots: ss/ss_glorious_big.png
+thumbnail: ss/ss_glorious.png
+link: http://www.glorioustrainwrecks.com/games/*/mkapolk My games
+description:
+I occasionally participate in game making events at <a href="http://glorioustrainwrecks.com">Glorious Trainwrecks</a>,
+ a community specializing in rapid-fire goofy gamelets. The above link will take
+ you to a list of the games I've made for their events.
+!description_end
+
+id: dads
+name: World of Dads
+big: false
+screenshots: ss/ss_dads_big.png
+thumbnail: ss/ss_dads.png
+link: http://ludogenesis.org/games/dads Play Now (Flash)
+description:
+This one is a platformer that is about my beefs with some of the trends of contemporary
+ game development, especially as it relates to art games. It was also the first game
+ I made with my entity/component framework, and although the framework was pretty much
+ overkill it worked very well.
+!description_end
+
+id: snow
+name: Apocalypse Snow
+big: false
+screenshots: ss/ss_snow_big.png
+thumbnail: ss/ss_snow.png
+link: http://www.ludogenesis.org/games/apocalypsesnow/ Play Now (Flash)
+description:
+This was for the Asynchronous Game Development Challenge for the game development
+ club.  The idea was that in the first phase, a designer would create a design
+ document for a game, and in the second phase artists and programmers would
+ implement it.  The design for this game was created by David Do, the in-game
+ art was made by Andrew Dakhil, and the programming, level design, and intro and
+ outro art were done by me.
+ <br><br>
+ The idea is that you are a defenseless character in a frozen post-apocalyptic
+ wasteland where polar bears rule the land.  The bears, who are perfectly white,
+ are invisible against the white snow, and you are slowly freezing to death when
+ you stray away from the safety of the fire.  The combination of these two
+ mechanics creates an interesting tension when you are forced to throw yourself
+ blindly into the snow, going slow enough to dodge any bears that present
+ themselves but fast enough that you don't freeze.
+!description_end
+
+id: cygnus
+name: Cygnus the Cutie
+big: false
+screenshots: ss/ss_cygnus_big.png
+thumbnail: ss/ss_cygnus.png
+link: http://ludogenesis.org/games/SpaceEnvelop/bin/ Play Now (Flash)
+description:
+Made in about a week for a game development club competition in conjunction with
+ Jessica Bower from Cogswell Polytechnical College.  Inspired heavily by
+ <a href="http://www.xgenstudios.com/play/fishy">Fishy</a>.
+!description_end
+
+id: flash
+name: Assorted Flash Projects
+big: false
+screenshots: ss/ss_flash_big.png
+thumbnail: ss/ss_flash.png
+link: http://ludogenesis.org/art/portrait.htm "Portrait of a Terrible Conversation" (Pictured)
+link: http://ludogenesis.org/art/untitled.htm "Do you wnat toseeywkmr?o"
+link: http://ludogenesis.org/art/portrait2.htm "Google Image Portrait Generator"
+description:
+ These are a bunch of goofy flash projects that I did for a class at SJSU.
+!description_end
+
+id: mind
+name: States of Mind
+big: false
+screenshots: ss/ss_states_big.png
+thumbnail: ss/ss_states.png
+link: http://ludogenesis.org/games/art175/as1/ Play Now (Flash)
+description:
+This is a quick game I made for a Flash game development class I took when I was
+ at SJSU. It is about a student who gets way to into the internet, to the point
+ that it start to effect how they interact with the world around them.
+!description_end

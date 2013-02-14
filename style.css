@@ -1,0 +1,232 @@
+.hide {
+   display: none;
+}
+
+html {
+   background: #222;
+}
+
+body {
+   font-family: sans-serif;
+}
+
+h1 {
+   color: #FEF;
+   text-align: center;
+   margin: 10px;
+   margin-bottom: 5px;
+}
+
+h2 {
+   color: #333;
+   size: 100px;
+   text-align: center;
+}
+
+h3 {
+   color: #333;
+   font-size: 15px;
+   padding: 10px;
+}
+
+.nolink {
+   color: white;
+   text-decoration: none;   
+}
+
+.dark-box {
+   display: block;
+   background: #333;
+   color: white;
+
+   /*Snazz*/
+   border-radius: 5px;
+   border: 1px solid black;
+   box-shadow: 5px 5px 3px 1px #222;
+}
+
+ul.header {
+   color: white;
+   list-style-type: none;
+   text-align: center;
+   padding: 0;
+   margin: 10px;
+}
+
+ul.header a {
+   color: white;
+   text-decoration: none;   
+}
+
+ul.header a:hover{
+   color: white;
+   text-decoration: underline;   
+}
+
+ul.header li {
+   display: inline-block;
+   padding-left: 10px;
+   padding-right: 10px;
+}
+
+.main_content {
+   background: #EEE;
+   margin: 0 auto;
+   padding-bottom: 10px;
+   /*max-width: 900px;*/
+   width: 900px;
+   border-radius: 15px;
+
+   overflow: hidden;
+}
+
+ul.games_big {
+	list-style-type:none;
+	padding: 0em 0.3em 0em 0.3em;
+	margin:0 auto;
+	overflow:hidden;
+
+   width: 100%;
+}
+
+ul.games_big li {
+	display:inline;
+	float:left;
+   position: relative;
+
+   top:0px;
+
+   transition: all .5s ease;
+   -webkit-transition: all .5s ease;
+   -o-transition: all .5s ease;
+   -moz-transition: all .5s ease;
+}
+
+ul.games_big li.big {
+   margin: 14px;
+   padding: 8px;
+
+   width: 250px;
+   height: 250px;
+}
+
+ul.games_big li.small {
+   margin-top: 15px;
+   margin-bottom: 10px;
+   margin-left: 15px;
+   margin-right: 5px;
+   padding: 7px;
+
+   width: 140px;
+   height: 140px;
+}
+
+ul.games_big li:hover {
+   position: relative;
+   top: -15px;
+
+   transition: all .5s ease;
+   -webkit-transition: all .5s ease;
+   -o-transition: all .5s ease;
+   -moz-transition: all .5s ease;
+}
+
+.caption-container {
+   position: absolute;
+   left: 50%;
+   width: 95%;
+   bottom: 0px;
+}
+
+ul.games_big li .caption {
+   position: relative;
+   left: -50%;
+
+   background: #333;
+   color: white;
+   font-weight: bold;
+   font-size: 10px;
+   text-align: center;
+
+   width: 80%;
+   margin: 0 auto;
+   padding: 7px;
+
+   border-radius: 5px 5px;
+}
+
+ul.games_big li img, video {
+   display: block;
+   position: relative;
+
+   height: 100%;
+
+   top: 0px;
+   left: 0px;
+}
+
+ul.games_big li div.container {
+   width: 100%;
+   height: 100%;
+   overflow: hidden;
+}
+
+/** Projects Page */
+
+div.project-content {
+   padding: 10px;
+}
+
+div.text-content {
+   padding: 30px;
+   margin: 1%;
+}
+
+div.text-content .body {
+   padding-top: 30px;
+   color: #333;
+}
+
+div.text-content .body a {
+   color: #a11;
+}
+
+div.text-content .body a:visited {
+   color: #a55;
+}
+
+div.text-content .play-button {
+   display: inline-block;
+
+   position: relative;
+
+   padding: 7px;
+   margin-right: 20px;
+   margin-bottom: 10px;
+
+   top: 0px;
+
+   font-size: 20px;
+
+   transition: all .5s ease;
+   -webkit-transition: all .5s ease;
+   -o-transition: all .5s ease;
+   -moz-transition: all .5s ease;
+}
+
+div.text-content .play-button:hover {
+   position: relative;
+   top: -5px;
+}
+
+div.image-content {
+   display: inline-block;
+   box-shadow: 0 0 0 0;
+}
+
+div.footer {
+   padding: 10px;
+   text-align: center;
+   color: white;
+   font-size: 10px;
+}
