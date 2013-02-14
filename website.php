@@ -109,7 +109,7 @@
    {
       ?>
          <head>
-            <title>Ludogenesis</title>
+            <title>Marek Kapolka</title>
             <link rel="stylesheet" href="style.css"/>
 
             <script type="text/javascript" src="jquery-1.4.1.min.js"></script>
