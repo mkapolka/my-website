@@ -40,6 +40,7 @@ screenshots: ss/ss_fun_big.png
 thumbnail: ss/ss_fun.png
 video: vid/fun_vid.mp4, vid/fun_vid.webm
 link: http://ludogenesis.org/games/fun Play Now (Flash)
+link: http://github.com/mkapolka/have-fun Source Code
 description:
 Have Fun was made for my BFA project at SJSU. 
 It is a point and click adventure game set in the future when gamification
