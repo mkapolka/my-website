@@ -32,11 +32,9 @@ if (!isset($entry))
 </head>
 
 <body>
-   <h1><a class="nolink" href="index.php">Marek Kapolka</a></h1>
-   <ul class="header">
-      <li><a href="mailto:marek.kapolka@gmail.com">Contact</a></li>
-   </ul>
-   <div class="main_content">
+      <?php
+         printHeader();
+      ?>
       <h2><?echo $entry->name; ?></h2>
       <a href="<?php echo INDEX_URL; ?>"><h3>< Projects</h3></a>
       <div style="text-align: center">
@@ -70,5 +68,8 @@ if (!isset($entry))
       </div>
 
    </div>
+   <?php
+      printFooter();
+   ?>
 </body>
 </html>
