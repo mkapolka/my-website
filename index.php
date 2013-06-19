@@ -18,9 +18,9 @@ $entries = parseProjectFile(PROJECTS_FILE);
                if ($entry->big)
                {
                   ?>
-                     <a href="<?php echo PROJECTS_URL . "?p=" . $entry->id; ?>">
+                     <a href="<?php echo PROJECTS_URL . "?p=" . $entry->id; ?>" onclick="void(0)">
                         <li class="dark-box big">
-                           <div class="container">
+                           <div class="container" >
                               <img src="<?php echo $entry->thumbnail; ?>"/>
                               <video>
                                  <?php
@@ -44,7 +44,7 @@ $entries = parseProjectFile(PROJECTS_FILE);
                   ?>
                      <a href="<?php echo PROJECTS_URL . "?p=" . $entry->id; ?>">
                         <li class="dark-box small">
-                           <div class="container" style="background:url('<?php echo $entry->thumbnail; ?>');">
+                           <div class="container" style="background:url('<?php echo $entry->thumbnail; ?>');" onclick="void(0)">
                               <!--<img src="<?php echo $entry->thumbnail; ?>"/>-->
                               <div class="caption-container">
                                  <div class="caption"><?php echo $entry->name; ?></div>
@@ -59,29 +59,31 @@ $entries = parseProjectFile(PROJECTS_FILE);
       </ul>
    </div>
    <script type="text/javascript">
-      $("video").map(function(index, element) {
-         element.play();
-      });
-      $("ul.games_big li.big").hover(
-         function() {
-            var video = $(this).find("video");
-            //video.show();
-            $(this).find("img").hide();
+      if(!/Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ) {
+         $("video").map(function(index, element) {
+            element.play();
+         });
+         $("ul.games_big li.big").hover(
+            function() {
+               var video = $(this).find("video");
+               //video.show();
+               $(this).find("img").hide();
 
-            video[0].play();
+               video[0].play();
 
-            $(this).find(".caption").fadeOut(250);
-         },
-         function () {
-            //$(this).find("video").hide();
-            $(this).find("img").show();
+               $(this).find(".caption").fadeOut(250);
+            },
+            function () {
+               //$(this).find("video").hide();
+               $(this).find("img").show();
 
-            $(this).find("video")[0].pause();
-            $(this).find("video")[0].currentTime = 0;
+               $(this).find("video")[0].pause();
+               $(this).find("video")[0].currentTime = 0;
 
-            $(this).find(".caption").fadeIn(150);
-         }
-      );
+               $(this).find(".caption").fadeIn(150);
+            }
+         );
+       }
    </script>
 <?php 
    printFooter();
