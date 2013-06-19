@@ -48,6 +48,18 @@ It is a point and click adventure game set in the future when gamification
  and an entity/component framework that I built for Flash.
 !description_end
 
+id: tree
+name: WebGL Trees
+big: false
+screenshots: ss/ss_tree.png
+thumbnail: ss/ss_tree_small.png
+link: http://marekkapolka.com/art/webgl/tree Play (Requires WebGL capable browser)
+link: https://github.com/mkapolka/html5-experiments/tree/master/tree View Source
+description:
+This is a very simple WebGL-powered tree generator that I made as an exercise while learning WebGL.
+ It generates black and white trees that rotate pleasantly.
+!description_end
+
 id: normal
 name: A Normal RPG
 big: false
